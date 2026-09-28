@@ -9,7 +9,7 @@ model = joblib.load(
     Path(__file__).parent / "placement_model.pkl"
 )
 
-model_path = os.path.join(os.path.dirname(__file__), "Pipeline_placement_model.pkl")
+model_path = os.path.join(os.path.dirname(__file__), "placement_model.pkl")
 model = joblib.load(model_path)
 
 
